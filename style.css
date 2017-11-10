@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+}
+
+/*/Styling for home.html/*/
+
+.blue-body{
+    background-color: rgb(223, 242, 253);
+}
+
+#burger{
+    height: 50px;
+}
+
+#start-btn{
+    display: block;
+    width: 80px;
+    height: 50px;
+    background-color: rgb(252,229,241);
+    /*rgb(213, 93, 63);*/
+    border: none;
+    font-size: 20px;
+}
+
+#button-cont a{
+     text-decoration: none;
+}
+
+#button-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#start-btn{
+    color: black;
+     font-family: avenir Next;
+}
+
+#main-content-center{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#main-content-center h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Tinos', serif;
+    font-weight: 700;
+}
+
+
+#full-nav-box{
+    background-color: rgb(252,229,241);
+    height: 100vh;
+}
+
+.dont-show{
+    display: none;
+}
+
+#full-nav-box img{
+    height: 50px;
+}
+
+#main-nav{
+    text-align: center;
+}
+
+#main-nav a{
+    display: block;
+    padding: 60px 40px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Tinos', serif;
+}
+
+#main-nav a.line-through{
+    text-decoration: line-through;
+}
+
+/*/Styling for events.html/*/
+
+.events-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1 . box2 . ."
+}
+
+
+#events-header-one{
+    grid-area: box1;
+}
+
+#events-header-two{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-area: box2;
+}
+
+#events-header-two p{
+    font-family: avenir Next;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.event-box{
+    border: 3px solid rgb(36,25,93);
+    height: 200px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: avenir Next;
+}
+
+#option-cont a{
+    text-decoration: none;
+    color: black;;
+    font-size: 30px;
+}
+
+#option-cont div{
+    /*background-color: rgb(213, 93, 63)*/
+}
+
+/*/lists.html/*/
+
+.events-header img{
+    height: 50px;
+}
+
+.events-header div{
+    display: flex;
+    align-items: center;
+}
+
+#pro{
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid rgb(36,25,93);
+}
+
+#pro h1{
+    font-family: 'Tinos', serif;
+    margin-bottom: 12px;
+}
+
+#pro h3, #pro h2{
+    font-family: avenir Next;
+}
+
+#pro .description{
+    font-family: avenir;
+}
+
+/*/singleEvent.html/*/
+
+#single-event{
+    padding: 10px;
+}
+
+#single-event h1{
+    font-family: 'Tinos', serif;
+    margin: 10px;
+}
+
+#single-event h3, #single-event h2, #single-event h4{
+    font-family: avenir next;
+}
+
+#single-event img{
+    margin-bottom: 15px;
+}
+
+#single-event .description{
+    margin-top: 15px;
+    font-family: avenir;
+}
+
+/*/contact.html/*/
+
+.pink-body{
+    background-color: rgb(252,229,241);
+}
+
+#contact-main{
+    margin-top: 40px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+#contact-main h3{
+    font-family: 'Tinos', serif;
+}
+
+#contact-main h3{
+    margin: 15px 0;
+
+}
+
+
+
+#contact-main p, #contact-main h5{
+    font-family: avenir;
+}
